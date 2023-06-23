@@ -27,6 +27,7 @@
   flex-direction: column;
   margin-bottom: 50px;
   gap: 10px;
+  flex: 0;
 }
 
 
@@ -34,4 +35,9 @@ button {
   max-height: 50px;
   max-width: 100px;
   align-self: center;
+  position: static;
+}
+
+input {
+  position: static;
 }
